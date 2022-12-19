@@ -12,6 +12,7 @@ $ cat file.m
 push 0
 push 1
 push 2
+```
 
 ## Technologies
 * Interpreter was written with C language
@@ -24,6 +25,7 @@ To compile all files:
 
 ```bash
 $ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+
 ```
 
 The **synopsis** of the interpreter is the following:
